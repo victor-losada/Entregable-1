@@ -1,0 +1,16 @@
+.card__btn {
+    display: block;
+    margin-left: auto;
+    background-color: rgb(119, 64, 44);
+    color: white;
+    border: none;
+    padding: 0.5em 1.5em;
+    font-size: 1.2rem;
+    border-radius: 0.7em;
+    font-weight: 400;
+    transition: transform 100ms ease;
+}
+.card__btn:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 1em #0004;
+}
